@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(33, 34, 39);
+}
+
+#header ul{
+    padding-left: 0%;
+    height: 13vh;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(83, 78, 131);
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section1{
+    color: rgb(51, 189, 210);
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#links ul{
+    display: flex;
+    gap: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.link{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: rgb(82, 198, 218);
+    font-size: 30px;
+    display: flex;
+    justify-content:baseline;
+    align-items: end;
+}
+
+.link:hover{
+    color: whitesmoke;
+}
+
+.foods{
+    padding: 20px;
+    text-align: center;
+}
+
+.foods h2 {
+    font-family: "Playwrite IT Moderna", cursive;
+    font-size: 50px;
+    color: rgba(45, 251, 254, 0.702);
+    margin-bottom: 100px;
+}
+
+.food-items {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.food-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgb(75, 173, 222);
+    transition: transform 0.3s;
+    background-color: rgb(209, 224, 192);
+    font-size: 20px;
+    color: rgb(12, 12, 12);
+    border-radius: 5px;
+}
+
+.food-item:hover {
+    transform: translateY(-10px);
+}
+
+.food-item img {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #d6e3bd;
+    padding-bottom: 10px;
+}
+
+.food-item h3 {
+    margin: 10px 0;
+}
+
+.food-item p {
+    color: #836414;
+    margin-bottom: 20px;
+}
+
+.food-item button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.food-item button:hover {
+    background-color: #218838;
+}
